@@ -18,7 +18,7 @@ RSpec.describe User, type: :model do
     end
 
     it 'should save succesfully' do
-      user = User.new(firt_name: 'First', last_name: 'Last', email: 'sample@example.com').save
+      user = User.new(first_name: 'First', last_name: 'Last', email: 'sample@example.com').save
       expect(user).to eq(true)
     end
   end
